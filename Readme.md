@@ -101,7 +101,39 @@ In addition to modeling, outlier detection techniques were employed to identify 
 
 ## Evaluation
 
-Explain how the performance of your models was evaluated. Include metrics used for evaluation and any insights gained from the results.
+<img width="905" alt="Screenshot 2024-05-12 at 7 56 03 AM" src="https://github.com/saumitkunder/Maersk-Assessment-AIML-Saumit/assets/109196162/d78629c1-177b-4c04-8c8d-c052c75ab000">
+This evaluation compares various regression models to determine which performs best under different data scaling conditions. We analyzed the performance using four metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), R-squared (R²), and Root Mean Squared Error (RMSE). The models were evaluated with two scaling techniques: Interquartile Range (IQR) and Z-score normalization.
+
+### Models Evaluated
+- **Random Forest**
+- **K-Nearest Neighbors (KNN)**
+- **Linear Regression**
+- **Gradient Boosting**
+
+### Scaling Techniques
+- **IQR Scaling:** Focuses on robustness by using the interquartile range, reducing the impact of outliers.
+- **Z-score Scaling:** Utilizes mean and standard deviation to normalize data, ensuring uniform contribution from all features.
+
+### Results
+
+#### Random Forest
+- **IQR**: MSE = 364.873, MAE = 9.07736, R² = 0.882912, RMSE = 19.1016
+- **Z-score**: MSE = 483.167, MAE = 9.80829, R² = 0.851515, RMSE = 21.9811
+
+#### KNN
+- **IQR**: MSE = 448.944, MAE = 9.91425, R² = 0.855933, RMSE = 21.1883
+- **Z-score**: MSE = 622.358, MAE = 10.8541, R² = 0.808739, RMSE = 24.9471
+
+#### Linear Regression
+- **IQR**: MSE = 700.621, MAE = 17.0217, R² = 0.77517, RMSE = 26.4693
+- **Z-score**: MSE = 851.789, MAE = 17.7759, R² = 0.738231, RMSE = 29.1854
+
+#### Gradient Boosting
+- **IQR**: MSE = 723.86, MAE = 18.2859, R² = 0.767712, RMSE = 26.9047
+- **Z-score**: MSE = 842.889, MAE = 18.7076, R² = 0.740967, RMSE = 29.0325
+
+### Conclusion
+The **Random Forest** model with **IQR scaling** showed the best overall performance, indicating its effectiveness for datasets with outlier influences and complex patterns. Linear Regression models were the least effective, particularly with Z-score normalization, indicating potential issues with high variance data or outlier sensitivity. Future work should explore parameter tuning and consider alternative models based on the specific characteristics of the dataset.
 
 
 
