@@ -26,7 +26,6 @@ The code file is organized into several sections, each serving a specific purpos
 ## Features
 
 - **Main Script:** The main script file contains all the code for EDA, preprocessing, and model training.
-- **Reusable Functions:** The script may include reusable functions for common tasks such as data preprocessing, feature engineering, and model evaluation.
 
 ## Dependencies
 
