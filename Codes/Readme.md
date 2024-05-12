@@ -59,6 +59,13 @@ The script trains multiple machine learning models, including:
 
 Model evaluation metrics such as mean squared error (MSE), mean absolute error (MAE), and R-squared are used to assess model performance.
 
+## Results 
+Comparing Scores of various models 
+<img width="905" alt="Screenshot 2024-05-12 at 7 56 03 AM" src="https://github.com/saumitkunder/Maersk-Assessment-AIML-Saumit/assets/109196162/8b42d0a1-be09-4dcd-9073-0d83c1b457da">
+
+Best Perfroming model visualisation 
+<img width="701" alt="Screenshot 2024-05-12 at 8 04 54 AM" src="https://github.com/saumitkunder/Maersk-Assessment-AIML-Saumit/assets/109196162/d4e1cc14-b1b1-49a0-a56b-5007d8ac9313">
+
 ## Additional Notes
 
 - The code is thoroughly documented with comments to explain each step and enhance readability.
