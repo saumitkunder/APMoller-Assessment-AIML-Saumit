@@ -1,4 +1,5 @@
 # SAUMIT-AIML-ASSESSMENT
+
 ## TASK
 Every row represents the sourcing of one unit of a particular product combination.
 A unique product combination comprises of attributes mentioned in Columns A,B,C,D,E,F
@@ -137,3 +138,4 @@ The **Random Forest** model with **IQR scaling** showed the best overall perform
 
 
 
+colab notebook link : https://colab.research.google.com/drive/1wGbVM2FpmvERlGg9ywiJ-QZwxlO4XnF0?usp=sharing
